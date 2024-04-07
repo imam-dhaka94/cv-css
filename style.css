@@ -166,8 +166,9 @@ hr{
 }
 .edu-template-left{
     width:45%;
-    float:left;
-
+    float:right;
+    position: relative;
+    left: 130px;
     
     
 }
@@ -175,15 +176,18 @@ hr{
     width: 45%;
     float: right;
     margin-right: 20px;
+    position: relative;
+    left: 180px;
    
     
     
 }
 .div-left-edu{
-    max-width: 75%;
+    width: 75%;
     float:right;
     padding: 25%px;
     margin:5px auto;
+    right: 100px;
 
 
 }
